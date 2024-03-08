@@ -1,0 +1,26 @@
+x = input("Enter an integer that is the dividend: ")
+y = input("Enter an integer that is the divisor: ")
+
+class ZeroDivisionError(Exception):
+    pass
+
+def division(x,y):
+
+    try:
+        Quotient = x//y
+        Remainder = x%10
+        y
+        
+    except ZeroDivisionError:
+        print("Cannot divide by 0!")
+        return None, None
+
+    else:
+        return Quotient, Remainder
+
+result = ()
+    
+print("Quotient is: ", division(x,y)[0])
+print("Remainder is: ",division(x,y)[1])
+
+

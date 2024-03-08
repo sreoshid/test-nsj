@@ -1,0 +1,1 @@
+user_input = input("Enter day of week: ").lowr
